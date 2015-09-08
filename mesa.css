@@ -39,18 +39,19 @@ table {
 
 @media screen and (max-width: 720px) {
   .table-container {
-    width: 100%;
+    margin-bottom: 1rem;
     overflow-y: auto;
     _overflow: auto;
-    margin-bottom: 1rem; }
+    -webkit-overflow-scrolling: touch;
+    width: 100%; }
     .table-container::-webkit-scrollbar {
       -webkit-appearance: none;
-      width: .875rem;
-      height: .875rem; }
+      height: .875rem;
+      width: .875rem; }
     .table-container::-webkit-scrollbar-thumb {
-      border-radius: 8px;
+      background-color: rgba(0, 0, 0, 0.3);
       border: .125rem solid #fff;
-      background-color: rgba(0, 0, 0, 0.3); }
+      border-radius: 8px; }
     .table-container table {
       margin: 0; }
       .table-container table td, .table-container table th {

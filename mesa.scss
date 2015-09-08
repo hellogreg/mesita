@@ -58,21 +58,22 @@ table {
 @media screen and (max-width: 720px) {
 
   .table-container {
-    width: 100%;
+    margin-bottom: 1rem;
     overflow-y: auto;
     _overflow: auto;
-    margin-bottom: 1rem;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
 
     &::-webkit-scrollbar {
       -webkit-appearance: none;
-      width: .875rem;
       height: .875rem;
+      width: .875rem;
     }
 
     &::-webkit-scrollbar-thumb {
-      border-radius: 8px;
-      border: .125rem solid #fff;
       background-color: rgba(0, 0, 0, .3);
+      border: .125rem solid #fff;
+      border-radius: 8px;
     }
 
     table {
