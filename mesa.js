@@ -8,7 +8,7 @@
 
     var maxMobileWidth = 720;
 
-    function createContainer(el) {
+    function createParentContainer(el) {
       var parent = el.parentNode;
       var wrapper = document.createElement("div");
       wrapper.setAttribute("class", "table-container");
@@ -19,11 +19,11 @@
     function addTableContainers() {
       var i = 0, len = $tables.length;
       for (; i < len; i++) {
-        createContainer($tables[i]);
+        createParentContainer($tables[i]);
       }
     }
 
-
+    // micromesa init().
     (function () {
       if ((window.innerWidth < maxMobileWidth) && ($tables)) {
         addTableContainers();
