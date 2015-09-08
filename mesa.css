@@ -42,7 +42,6 @@ table {
     margin-bottom: 1rem;
     overflow-y: auto;
     _overflow: auto;
-    -webkit-overflow-scrolling: touch;
     width: 100%; }
     .table-container::-webkit-scrollbar {
       -webkit-appearance: none;
@@ -53,7 +52,8 @@ table {
       border: .125rem solid #fff;
       border-radius: 8px; }
     .table-container table {
-      margin: 0; }
+      margin: 0;
+      -webkit-overflow-scrolling: touch; }
       .table-container table td, .table-container table th {
         white-space: nowrap; } }
 
