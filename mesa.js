@@ -4,7 +4,8 @@
 
   function micromesa() {
 
-    var $tables = document.getElementsByTagName("table");
+    var $main = document.getElementsByTagName("main")[0];
+    var $tables = $main.getElementsByTagName("table");
 
     var maxMobileWidth = 720;
 
