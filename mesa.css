@@ -52,8 +52,7 @@ table {
       border: .125rem solid #fff;
       border-radius: 8px; }
     .table-container table {
-      margin: 0;
-      -webkit-overflow-scrolling: touch; }
+      margin: 0; }
       .table-container table td, .table-container table th {
         white-space: nowrap; } }
 
