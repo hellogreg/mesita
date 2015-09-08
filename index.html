@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>micromesa demo</title>
+  <link rel="stylesheet" href="mesa.css?v=1"/>
+  <script src="mesa.js?v=1"></script>
+</head>
+<body>
+
+<header role="banner">
+  <h1>Micromesa</h1>
+</header>
+
+<main role="main">
+
+  <p>Micromesa is a minimal, responsive table widget for websites. On smaller screens, it creates containers for all &lt;table&gt;
+    elements on the page, which then allow these tables to be scrolled horizontally.
+    I'm using Micromesa in the current responsive redesign of websites at my work. If you change the browser size while testing,
+    you'll need to reload the page. I didn't put a listener on window size changes, because I wanted to maximize performance.</p>
+
+  <table>
+    <tr>
+      <th>Field 1</th>
+      <th>Field 2</th>
+      <th>Field 3</th>
+      <th>Field 4</th>
+      <th>Field 5</th>
+      <th>Field 6</th>
+      <th>Field 7</th>
+      <th>Field 8</th>
+      <th>Field 9</th>
+      <th>Field 10</th>
+    </tr>
+    <tr>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+    </tr>
+    <tr>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+    </tr>
+    <tr>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+    </tr>
+    <tr>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+      <td>Value</td>
+    </tr>
+  </table>
+</main>
+
+
+<footer role="contentinfo">
+  <p>You can <a href="https://github.com/hellogreg/micromesa">view this project</a> at GitHub.</p>
+</footer>
+
+<script type="application/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+<script type="application/javascript">
+  window.addEventListener("load", function () {
+    FastClick.attach(document.body);
+  }, false);
+</script>
+</body>
+</html>
