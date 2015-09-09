@@ -2,7 +2,7 @@
 
   "use strict";
 
-  function micromesa() {
+  function mesita() {
 
     var $main = document.getElementsByTagName("main")[0];
     var $tables = $main.getElementsByTagName("table");
@@ -24,7 +24,7 @@
       }
     }
 
-    // micromesa init().
+    // mesita init().
     (function () {
       if ((window.innerWidth < maxMobileWidth) && ($tables)) {
         addTableContainers();
@@ -37,9 +37,9 @@
 
   // Quickie DOM readiness check to initialize widget.
   if (!!(window.addEventListener)) {
-    window.addEventListener("DOMContentLoaded", micromesa);
+    window.addEventListener("DOMContentLoaded", mesita);
   } else {
-    window.attachEvent("onload", micromesa);
+    window.attachEvent("onload", mesita);
   }
 
 }());
